@@ -1,0 +1,140 @@
+.text_box {
+  width: 500px;
+}
+
+.text_box > h1 {
+  font-size: 74px;
+}
+.text_box > p {
+  font-size: 18px;
+}
+
+.text_box > button {
+  width: 176px;
+  height: 58px;
+  font-size: 18px;
+  /* padding: 10px 20px; */
+  background: #3f3f3f;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  margin-top: 72px;
+}
+
+.first_box {
+  background-image: url(./images/hero\ image\ 1.jpg);
+  height: 600px;
+  width: 90%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: right center;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.two_box {
+  display: flex;
+  background-color: #ddc7bb;
+  width: 70%;
+  height: 100px;
+  align-items: center;
+  border-radius: 15px;
+  padding: 51px 30px;
+  margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+}
+
+.input_box > input {
+  width: 160px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px 17px;
+  border: none;
+  border-radius: 7px;
+}
+
+.input_box > input:not(:last-child) {
+  margin-right: 25px;
+}
+
+.two_box > button {
+  width: 160px;
+  height: 58px;
+  font-size: 18px;
+  background: #3f3f3f;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  margin-left: 34px;
+}
+
+.input_location{
+  background-image: url(./images/icons/vector\ \(2\).png);
+  background-repeat: no-repeat;
+  background-position: center right +10px;
+
+}
+
+
+
+.box_statistics{
+  display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box_stat_text{
+    margin-left: 106px;
+}
+
+.statistics{
+  display: flex;
+
+}
+/* //////////////////////// */
+.bannerText >h2{
+  font-size: 52px;
+}
+.bannerText >p{
+  font-size: 18px;
+}
+.cardBanner{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+/* .ban{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+} */
+.cardText{
+  WIDTH: 190px;
+ }
+ .ban{
+  background: #DDC7BB;
+  border-radius: 7px;
+  /* text-align: center; */
+  padding: 15px;
+ }
+.iconBanner{
+ background: #FBF5F1;
+ width: 62px;
+ border-radius: 9px;
+ height: 55px;
+ }
+ .iconBanner>img{
+  width: 42px;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+/* ///////////////// */
+.cardHead
